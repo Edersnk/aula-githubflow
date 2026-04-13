@@ -21,7 +21,7 @@ jobs:
       - name: "Verificando versao NodeJS"
         run: node --version
       - name: "Atualizando para versao mais atuao do NodeJS"
-        uses: actions/setup-node@v6.3.0
+        uses: actions/setup-node@v6
         with: 
           node-version: '24.14.1'
       - name: "Verificando versao do NodeJS apos atualizar"
